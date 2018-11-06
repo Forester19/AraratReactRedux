@@ -1,0 +1,7 @@
+const initialState = {
+   img:[]
+};
+
+export function pageInfo(store = initialState) {
+    return store;
+}

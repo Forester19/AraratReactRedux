@@ -1,0 +1,11 @@
+const initialState = {
+    login: 'Unknown',
+    password: 'Unknown'
+};
+
+function userInfo(state = initialState) {
+    console.log(state);
+    return state;
+}
+export default  userInfo;
+
